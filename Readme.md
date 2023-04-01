@@ -1,8 +1,4 @@
-# myportfolio.github.io
-
-This is my portfolio containing information about me and links to some of my projects.
-I am a full stack developer and the projects in my portfolio showcase my wealth of experience
-
-Please recommend me for jobs or projects
-
-webste - https://ericdavidtc.github.io/myportfolio.github.io/
+A portfolio website built with Html, CSS and JavaScript.
+It Feartures light and dark mode and can store user preference.
+Resume download link
+Responsive design to fit most devices
