@@ -358,6 +358,27 @@ p.active {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+}
+#services .service-item.active {
+  flex-basis: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 0 #fff;
+}
+#services .service-item.active:hover {
+  box-shadow: 0px 0px 18px 0 #fff;
+  transition: 0.5s ease-in-out all;
 }
 #services .service-item::after {
   content: "";
@@ -468,6 +489,12 @@ p.active {
   margin: 0 auto;
   padding: 100px 20px;
 }
+
+#about .description {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
 #about .col-left {
   width: 250px;
   height: 360px;
@@ -477,10 +504,18 @@ p.active {
 }
 #about .col-right h2 {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
 }
+#about .col-right h2.active {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
 #about .col-right p {
   margin-bottom: 20px;
 }
@@ -552,14 +587,15 @@ p.active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 0px 18px 0 #fff;
+
+  box-shadow: 0px 0px 5px 0 #fff;
   transition: 0.3s ease box-shadow;
 }
 #contact .contact-item:hover {
   box-shadow: 0px 0px 5px 0 #0000002c;
 }
 #contact .contact-item.active:hover {
-  box-shadow: 0px 0px 5px 0 #fff;
+  box-shadow: 0px 0px 18px 0 #fff;
   transition: 0.5s ease-in-out all;
 }
 #contact .icon {
