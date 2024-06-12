@@ -351,13 +351,24 @@ p.active {
   justify-content: center;
   flex-direction: column;
   padding: 30px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+
   background-image: url(./img/img-1.png);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
   z-index: 1;
   overflow: hidden;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
+}
+#services .service-item.active {
+  box-shadow: 0px 0px 18px 0 #fff;
+  transition: 0.3s ease box-shadow;
+}
+#services .service-item.active:hover {
+  box-shadow: 0px 0px 5px 0 #fff;
+  transition: 0.5s ease-in-out all;
 }
 #services .service-item::after {
   content: "";
@@ -542,22 +553,12 @@ p.active {
   transition: 0.3s ease box-shadow;
 }
 #contact .contact-item.active {
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  padding: 30px;
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   box-shadow: 0px 0px 18px 0 #fff;
   transition: 0.3s ease box-shadow;
 }
-#contact .contact-item:hover {
+/* #contact .contact-item.active:hover {
   box-shadow: 0px 0px 5px 0 #0000002c;
-}
+} */
 #contact .contact-item.active:hover {
   box-shadow: 0px 0px 5px 0 #fff;
   transition: 0.5s ease-in-out all;

@@ -12,6 +12,7 @@ let title = document.querySelectorAll(".section-title");
 let p = document.querySelectorAll("p");
 let cta = document.querySelector(".col-right .cta");
 let contactItem = document.querySelectorAll(".contact-item");
+let serviceItem = document.querySelectorAll(".service-item");
 let contactInfo = document.querySelectorAll(".contact-info");
 let darkMode = localStorage.getItem("darkMode");
 
@@ -29,6 +30,9 @@ darkModeEnable = () => {
   }
   for (let i = 0; i < contactItem.length; i++) {
     contactItem[i].classList.add("active");
+  }
+  for (let i = 0; i < serviceItem.length; i++) {
+    serviceItem[i].classList.add("active");
   }
   for (let i = 0; i < contactInfo.length; i++) {
     contactInfo[i].classList.add("active");
@@ -52,6 +56,9 @@ darkModeDisable = () => {
   }
   for (let i = 0; i < contactItem.length; i++) {
     contactItem[i].classList.remove("active");
+  }
+  for (let i = 0; i < serviceItem.length; i++) {
+    serviceItem[i].classList.remove("active");
   }
   for (let i = 0; i < contactInfo.length; i++) {
     contactInfo[i].classList.remove("active");
