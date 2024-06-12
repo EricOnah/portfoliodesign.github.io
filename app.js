@@ -9,6 +9,7 @@ const header = document.querySelector(".header.container");
 let toggleBtn = document.querySelector(".toggle-btn");
 let body = document.querySelector("html");
 let title = document.querySelectorAll(".section-title");
+let subtitle = document.querySelectorAll(".section-subtitle");
 let p = document.querySelectorAll("p");
 let cta = document.querySelector(".col-right .cta");
 let contactItem = document.querySelectorAll(".contact-item");
@@ -24,6 +25,9 @@ darkModeEnable = () => {
   body.classList.add("active");
   for (let i = 0; i < title.length; i++) {
     title[i].classList.add("active");
+  }
+  for (let i = 0; i < subtitle.length; i++) {
+    subtitle[i].classList.add("active");
   }
   for (let i = 0; i < p.length; i++) {
     p[i].classList.add("active");
@@ -50,6 +54,9 @@ darkModeDisable = () => {
   body.classList.remove("active");
   for (let i = 0; i < title.length; i++) {
     title[i].classList.remove("active");
+  }
+  for (let i = 0; i < subtitle.length; i++) {
+    subtitle[i].classList.remove("active");
   }
   for (let i = 0; i < p.length; i++) {
     p[i].classList.remove("active");

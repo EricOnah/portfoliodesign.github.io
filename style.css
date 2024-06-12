@@ -492,6 +492,11 @@ p.active {
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
 }
+#about .col-right .section-subtitle.active {
+  color: white;
+  transition: 0.5s ease-in-out all;
+}
+
 #about .col-right p {
   margin-bottom: 20px;
 }
