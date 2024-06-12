@@ -810,3 +810,11 @@ p.active {
   }
 }
 /* End  Media Query For Desktop */
+
+.skill-img {
+  width: 50px;
+}
+
+.skills {
+  display: inline;
+}
