@@ -1,1 +1,1 @@
-Here is my portfolio website. To visit: https://github.com/EricDavidTc/myportfolio.github.io
+Here is my portfolio website. To visit: [myPortFolio](https://ericonah.github.io/portfoliodesign.github.io/)
