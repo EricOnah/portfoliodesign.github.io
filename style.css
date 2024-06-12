@@ -731,7 +731,7 @@ p.active {
     border: 10px solid rgb(139, 139, 34);
   }
   #about .col-right {
-    text-align: left;
+    text-align: left !important;
     padding: 30px;
   }
   #about .col-right h1 {
